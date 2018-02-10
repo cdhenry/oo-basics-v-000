@@ -1,5 +1,5 @@
 class Shoe
-  attr_accessor :color, :page_count, :genre
+  attr_accessor :color, :size, :genre
   attr_reader :brand
 
   def initialize(brand)
