@@ -1,5 +1,6 @@
 class Book
-  attr_accessor :name
+  def initialize(title)
+  end
 end
 
 Book.new("And Then There Were None")
